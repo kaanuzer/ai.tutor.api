@@ -112,3 +112,10 @@ source venv/bin/activate   # Mac/Linux
 
 PAKETLER:
 pip install fastapi "uvicorn[standard]"
+pip install openai
+pip install pika
+
+brew install rabbitmq
+brew services start rabbitmq
+
+pip install --upgrade pip
